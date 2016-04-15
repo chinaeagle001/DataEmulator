@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JustCoding.iml" filepath="$PROJECT_DIR$/JustCoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DateEmulator.iml" filepath="$PROJECT_DIR$/DateEmulator.iml" />
     </modules>
   </component>
 </project>
