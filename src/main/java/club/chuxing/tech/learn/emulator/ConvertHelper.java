@@ -12,6 +12,8 @@ public class ConvertHelper {
             return NumberUtils.toInt(str);
         } else if (type == Long.class) {
             return NumberUtils.toLong(str);
+        } else if (type == Float.class) {
+            return NumberUtils.toFloat(str);
         } else if (type == Double.class) {
             return NumberUtils.toDouble(str);
         } else {

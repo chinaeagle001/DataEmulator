@@ -19,13 +19,15 @@ public class RandomHelperTest {
     @Test
     public void testNextLong() throws Exception {
         for (int i = 0; i < 100; i++) {
-            RandomHelper.nextLong(3, 8);
+            System.out.println(RandomHelper.nextLong(-30, -10));
         }
     }
 
     @Test
     public void testNextDouble() throws Exception {
-
+        for (int i = 0; i < 100; i++) {
+            System.out.println(RandomHelper.nextDouble(-30.1233332, -8.13232));
+        }
     }
 
     @Test

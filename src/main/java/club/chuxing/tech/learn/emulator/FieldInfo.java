@@ -1,6 +1,7 @@
 package club.chuxing.tech.learn.emulator;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.CollectionUtils;
@@ -88,6 +89,12 @@ public class FieldInfo<T> {
         }
 
         int rows = generatedValues != null ? generatedValues.size() : 0;
+        if (!hasValueRanges()) {
+            if (valueSet.size() == rows) {
+                return true;
+            }
+        }
+
         if (fieldType == Long.class) {
             if (hasValueRanges () && (long)max - (long)min == rows) {
                 return true;
@@ -153,7 +160,11 @@ public class FieldInfo<T> {
         }
         Number num;
         if (hasValueSet()) {
-            num = (Number)RandomHelper.nextValue(valueSet);
+            if (fieldType == Float.class || fieldType == Double.class) {
+                num = NumberUtils.toDouble((String)RandomHelper.nextValue(valueSet));
+            } else {
+                num = NumberUtils.toLong((String)RandomHelper.nextValue(valueSet));
+            }
         } else if (hasValueRanges()) {
             num = getRandomRangeNumber();
         } else {
@@ -171,6 +182,10 @@ public class FieldInfo<T> {
             } else {
                 generatedValues.add((T)num);
             }
+        }
+
+        if (fieldType == Integer.TYPE || fieldType == Long.TYPE) {
+            num = Math.round((double)num);
         }
 
         return num;
