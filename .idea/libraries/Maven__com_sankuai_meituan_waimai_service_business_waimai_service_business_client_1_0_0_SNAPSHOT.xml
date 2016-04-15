@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sankuai.meituan.waimai.service.business:waimai_service_business_client:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/waimai/service/business/waimai_service_business_client/1.0.0-SNAPSHOT/waimai_service_business_client-1.0.0-20160321.093145-98.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/waimai/service/business/waimai_service_business_client/1.0.0-SNAPSHOT/waimai_service_business_client-1.0.0-20160321.093145-98-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/waimai/service/business/waimai_service_business_client/1.0.0-SNAPSHOT/waimai_service_business_client-1.0.0-20160321.093145-98-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

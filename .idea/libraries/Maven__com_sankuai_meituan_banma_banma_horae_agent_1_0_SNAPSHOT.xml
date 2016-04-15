@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sankuai.meituan.banma:banma_horae_agent:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_horae_agent/1.0-SNAPSHOT/banma_horae_agent-1.0-20160317.052005-27.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_horae_agent/1.0-SNAPSHOT/banma_horae_agent-1.0-20160317.052005-27-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_horae_agent/1.0-SNAPSHOT/banma_horae_agent-1.0-20160317.052005-27-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

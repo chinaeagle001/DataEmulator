@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="banma_service_lbs_web:war">
+    <output-path>$USER_HOME$/workspace/banma_service_lbs_web/target</output-path>
+    <root id="archive" name="banma_service_lbs_web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="banma_service_lbs_web:war exploded" />
+    </root>
+  </artifact>
+</component>

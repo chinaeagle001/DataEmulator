@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.meituan.cache:redis-cluster-client:1.0.2.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/cache/redis-cluster-client/1.0.2.1/redis-cluster-client-1.0.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/cache/redis-cluster-client/1.0.2.1/redis-cluster-client-1.0.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/cache/redis-cluster-client/1.0.2.1/redis-cluster-client-1.0.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

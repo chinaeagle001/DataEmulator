@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sankuai.meituan.banma:banma_kv:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_kv/1.0.0-SNAPSHOT/banma_kv-1.0.0-20160324.123928-229.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_kv/1.0.0-SNAPSHOT/banma_kv-1.0.0-20160324.123928-229-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_kv/1.0.0-SNAPSHOT/banma_kv-1.0.0-20160324.123928-229-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

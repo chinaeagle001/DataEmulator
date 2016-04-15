@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.meituan.scribe:scribe-logback:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/scribe/scribe-logback/1.0-SNAPSHOT/scribe-logback-1.0-20151217.092309-13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/scribe/scribe-logback/1.0-SNAPSHOT/scribe-logback-1.0-20151217.092309-13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/meituan/scribe/scribe-logback/1.0-SNAPSHOT/scribe-logback-1.0-20151217.092309-13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

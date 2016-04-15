@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sankuai.meituan.banma:banma_multi_datasource:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_multi_datasource/1.0-SNAPSHOT/banma_multi_datasource-1.0-20150831.041901-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_multi_datasource/1.0-SNAPSHOT/banma_multi_datasource-1.0-20150831.041901-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/banma/banma_multi_datasource/1.0-SNAPSHOT/banma_multi_datasource-1.0-20150831.041901-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

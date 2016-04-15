@@ -1,0 +1,32 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+       <!--xmlns:p="http://www.springframework.org/schema/p"-->
+       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+       <!--xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+       <!--http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">-->
+       <!--&lt;!&ndash;<bean id="duke" class="Juggler">&ndash;&gt;-->
+              <!--&lt;!&ndash;<constructor-arg value="15" />&ndash;&gt;-->
+       <!--&lt;!&ndash;</bean>&ndash;&gt;-->
+       <!--<bean id="sonnet29" class="com.springinaction.springidol.Sonnet29" />-->
+       <!--<bean id="duke" class="com.springinaction.springidol.PoeticJuggler">-->
+              <!--<constructor-arg value="25" />-->
+              <!--<constructor-arg>-->
+                     <!--<bean class="com.springinaction.springidol.Sonnet29" />-->
+              <!--</constructor-arg>-->
+       <!--</bean>-->
+       <!--<bean id="theStage" class="com.springinaction.springidol.Stage"-->
+               <!--factory-method="getInstance" />-->
+
+       <!--<bean id="kenny" class="com.springinaction.springidol.Instrumentalist">-->
+              <!--<property name="song" value="Jingle Bells" />-->
+              <!--<property name="instrument">-->
+                     <!--<bean class="com.springinaction.springidol.Saxophone" />-->
+              <!--</property>-->
+       <!--</bean>-->
+
+       <!--<bean id="saxophone" class="com.springinaction.springidol.Saxophone" />-->
+
+       <!--<bean id="kenny2" class="com.springinaction.springidol.Instrumentalist"-->
+             <!--p:song="Jingle Bells"-->
+             <!--p:instrument-ref="saxophone" />-->
+<!--</beans>-->

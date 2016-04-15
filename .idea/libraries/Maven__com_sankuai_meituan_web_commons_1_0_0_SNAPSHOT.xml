@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sankuai.meituan:web_commons:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/web_commons/1.0.0-SNAPSHOT/web_commons-1.0.0-20141106.021556-20.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/web_commons/1.0.0-SNAPSHOT/web_commons-1.0.0-20141106.021556-20-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/meituan/web_commons/1.0.0-SNAPSHOT/web_commons-1.0.0-20141106.021556-20-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

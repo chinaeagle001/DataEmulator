@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.tair:tair3-client:3.2.5.1-mt-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/tair/tair3-client/3.2.5.1-mt-SNAPSHOT/tair3-client-3.2.5.1-mt-20160310.145509-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/tair/tair3-client/3.2.5.1-mt-SNAPSHOT/tair3-client-3.2.5.1-mt-20160310.145509-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/tair/tair3-client/3.2.5.1-mt-SNAPSHOT/tair3-client-3.2.5.1-mt-20160310.145509-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

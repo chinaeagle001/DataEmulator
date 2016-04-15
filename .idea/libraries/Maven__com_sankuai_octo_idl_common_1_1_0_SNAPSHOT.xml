@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sankuai.octo:idl-common:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/octo/idl-common/1.1.0-SNAPSHOT/idl-common-1.1.0-20151209.105835-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/octo/idl-common/1.1.0-SNAPSHOT/idl-common-1.1.0-20151209.105835-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sankuai/octo/idl-common/1.1.0-SNAPSHOT/idl-common-1.1.0-20151209.105835-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
