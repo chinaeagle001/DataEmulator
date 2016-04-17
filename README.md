@@ -2,7 +2,7 @@
 该工具可以根据数据库表的描述文件模拟数据库表记录
 
 # Get Started
-## 编写描述文件
+##1 编写描述文件
 使用时仅需编写一个数据库表的描述文件，即可生成相应行数的数据库表记录。数据库表描述文件的格式如下：
 ```
 table:tablename1 rows
@@ -17,15 +17,16 @@ fieldnamen fieldtypen [min,max)|{val1,...,valn}
 ```
 每个数据库表描述文件可以包含单个或多个表的描述信息，每个表的第一行以`table:`开头，其后接表名，`rows`表示将要生成的数据库表记录的行数，为可选信息。其后n行为表字段的描述信息，`fieldname`为字段名，`fieldtype`为字段类型，目前支持`int`、`long`、`float`、`double`、`string`和`varchar`，`string`和`varchar`使用时的效果相同。`[min,max)|{val1,...,valn}`为对该字段取值的约束，`[min,max)`表示一个取值范围，表示可以取到符合数据类型的从`min`(包含)到`max`(不包含)的所有值，`{val1,...,valn}`表示一个取值集合，即该字段只能取该集合内的值，不能取其他值，取值范围和取值集合只能设置一个，不能二者同时设置，但是可以都不设置。最后还可以设置字段为`pk`，即表示该字段为主键，不可插入重复值。
 
+
 **NOTE**
 - 字段的每一项描述信息之间以单个空格隔开
 - 取值范围和取值集合信息内部不能包含空格
-- 取值范围和赋值集合不可同时设置
+- 取值范围和取值集合不可同时设置
 - 取值范围、取值集合和主键约束为可选信息，可以不填
-- 数据库表记录的生成行数要么用表名后面的`rows`进行设置，要么在执行`EmulateService.emulate(rows)`时进行设置，至少要设置一处，若两处都设置，则以`emulate(rows)`为准。
+- 数据库表记录的生成行数要么用表名后面的`rows`进行设置，要么在执行`EmulateService.emulate(rows)`时进行设置，至少要设置一处，若两处都设置，则以`EmulateService.emulate(rows)`为准。
+
 
 一个描述文件的实例：
-tableinfo:
 ```
 table:person 20
 id int [1,1000) pk
@@ -36,7 +37,7 @@ coef double
 count long
 ```
 
-## 根据描述文件生成数据库插入语句
+##2 根据描述文件生成数据库插入语句
 
 - 方式1：
 ```java
@@ -50,7 +51,7 @@ EmulateService service = new EmulateService("/Users/Admin/Documents/tableinfo");
 System.out.println(service.emulate(100)); //为emulator()函数中传入rows参数
 ```
 
-**最后生成的插入语句**
+最后生成的插入语句
 
 - 生成方式1(20行记录)：
 ```
