@@ -26,6 +26,4 @@ src/main/webapp/META-INF/
 */src/main/webapp/WEB-INF/decorators/revision.properties
 target
 local_output
-banma_service_package_server.ipr
-banma_service_package_server.iws
 coverage-report
