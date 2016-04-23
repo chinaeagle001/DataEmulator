@@ -48,7 +48,7 @@ System.out.println(service.emulate());
 - 方式2
 ```java
 EmulateService service = new EmulateService("/Users/Admin/Documents/tableinfo");
-System.out.println(service.emulate(100)); //为emulator()函数中传入rows参数
+System.out.println(service.emulate(5)); //为emulator()函数中传入rows参数
 ```
 
 ### 插入语句生成结果
